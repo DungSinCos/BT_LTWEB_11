@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemesh>
+    <!-- Khong decorate tai nguyen tinh va chinh cac file decorator -->
+    <mapping path="/assets/*" excluded="true"/>
+    <mapping path="/WEB-INF/decorators/*" excluded="true"/>
+
+    <!-- Vai tro Admin: SiteMesh 3 tu dong ghep prefix /WEB-INF/decorators/ -->
+    <mapping path="/admin/*" decorator="admin-decorator.jsp"/>
+
+    <!-- Vai tro User (mac dinh) -->
+    <mapping path="/*" decorator="user-decorator.jsp"/>
+</sitemesh>
