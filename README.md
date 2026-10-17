@@ -1,10 +1,4 @@
-# BookStore_24133010
-
-Đề: LTWEB — Maven Project + Servlet + JPA + JSP (03 tầng: Presentation/MVC – Business – DAO), SiteMesh 2 vai trò, đăng ký OTP qua mail, CRUD sách/tác giả có phân trang.
-
-Họ tên: Lục Long Trí Dũng — MSSV: 24133010 — Mã đề: 01
-
-## 1. Cấu trúc project (3 tầng)
+ 1. Cấu trúc project (3 tầng)
 
 ```
 src/main/java/com/mssv24133010/bookstore/
