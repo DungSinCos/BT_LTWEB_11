@@ -56,8 +56,3 @@ Truy cập: `http://localhost:8080/BookStore_24133010/home`
 - **Câu 3**: `/home` — danh sách sách phân trang 6/trang (`BookService_24133010.PAGE_SIZE`).
 - **Câu 4**: `/book?id=..` — chi tiết sách + danh sách review + form thêm review (yêu cầu đăng nhập).
 - **Câu 6**: `/admin/books`, `/admin/authors` — CRUD đầy đủ (thêm/sửa/xóa/xem) + phân trang, bảo vệ bởi `AdminAuthFilter_24133010`. Class/Interface/Controller/Service đặt tên theo mẫu `Tên_24133010.java` như yêu cầu.
-
-## 5. Ghi chú
-- Ảnh bìa sách được upload vào `webapp/assets/uploads/` khi thêm/sửa sách trong trang admin.
-- Mật khẩu người dùng được băm MD5 (khớp cột `password varchar(32)`).
-- Đây là project khởi tạo đầy đủ để bạn build, kết nối DB thật, chụp màn hình nộp bài. Hãy tự thêm dữ liệu mẫu (sách/tác giả) qua giao diện admin hoặc INSERT trực tiếp để test hiển thị & phân trang.
